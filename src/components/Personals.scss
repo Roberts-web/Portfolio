@@ -1,0 +1,46 @@
+$main: rgb(80, 110, 87);
+$border: rgb(128, 176, 139);
+$dark: rgb(34, 34, 34);
+$text: rgb(197, 197, 197);
+
+
+.photo {
+    width: 250px;
+    border-radius: 100%;
+    border: solid 5px $border;
+    margin-right: 102.5px;
+    
+  }
+  .perfonal-info {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 30px 0px;
+    margin: 0 auto;
+    background: url('../images/background1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: $dark;
+    border: black solid 2px;
+    p{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 1.25rem;
+      text-align: left;
+      color: $text;
+      background-color: rgba(34, 34, 34, 0.5);
+      border-radius: 15px;
+      padding: 15px 15px 15px 0px;
+      
+    }
+    h2{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 2rem;
+    }
+  }
+  .header-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 45.83px;
+  }

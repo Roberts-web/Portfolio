@@ -1,0 +1,31 @@
+$main: rgb(80, 110, 87);
+$border: rgb(128, 176, 139);
+$dark: rgb(34, 34, 34);
+$text: rgb(197, 197, 197);
+
+
+
+.logo {
+    width: 120px;
+    height: 45px;
+    margin: 16px
+  }
+  
+  .footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .footer {
+    border-top: solid $text 1px;
+    width: 90%;
+    margin: 0 auto ;
+    margin-top: 20px;
+    font-size: 1rem;
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    
+  }
+  

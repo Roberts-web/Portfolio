@@ -1,0 +1,55 @@
+// colors
+
+$main: rgb(80, 110, 87);
+$border: rgb(128, 176, 139);
+$dark: rgb(34, 34, 34);
+$text: rgb(197, 197, 197);
+
+
+.scroll {
+    width: 50px;
+    height: 50px;
+    background-color: $main;
+    border-radius: 50%;
+    border: $dark 2px solid;
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+    
+    &:hover{
+        scale: 1.1;
+        color: white;
+        transition: all 0.3s ease-in-out;
+    }
+}
+.invisible {
+    width: 50px;
+    height: 50px;
+    background-color: $main;
+    border-radius: 50%;
+    border: $dark 2px solid;
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
